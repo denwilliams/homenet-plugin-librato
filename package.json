@@ -1,0 +1,26 @@
+{
+  "name": "@homenet/plugin-librato",
+  "version": "0.0.3",
+  "description": "Publishes metrics to Librato from homenet",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Den Williams",
+  "license": "MIT",
+  "keywords": [
+    "homenet",
+    "homenet4-plugin"
+  ],
+  "homenet4": {
+    "plugins": [
+      "LibratoPluginLoader"
+    ]
+  },
+  "dependencies": {
+    "librato-node": "^5.0.0"
+  },
+  "devDependencies": {
+    "@homenet/core-tsd": "^4.0.0-beta.8b"
+  }
+}

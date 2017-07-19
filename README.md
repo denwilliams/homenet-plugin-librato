@@ -1,2 +1,2 @@
 # homenet-plugin-librato
-Publish to Librato from homenet
+Publishes metrics to Librato from homenet
